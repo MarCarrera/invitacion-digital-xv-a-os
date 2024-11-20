@@ -369,6 +369,14 @@ body {
     margin-top: 0;
     
   }
+  .texto-3 {
+    color: #333;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 0;
+    
+  }
   
   .mis {
     font-family: 'Ballet', cursive;
@@ -562,7 +570,7 @@ body {
     margin-right: 50px;
 }
 
-/*a:hover {
+a:hover {
     background: var(--secondary);
     color: #050801;
     box-shadow: 0 0 5px var(--secondary),
@@ -570,15 +578,21 @@ body {
         0 0 50px var(--secondary),
         0 0 200px var(--secondary);
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
-}*/
+}
 
-a:nth-child(1) {
+a:nth-child(1),
+a:nth-child(2) {
+  filter: none; /* O elimina por completo las reglas nth-child */
+}
+
+
+/* a:nth-child(1) {
     filter: hue-rotate(270deg);
 }
 
 a:nth-child(2) {
     filter: hue-rotate(110deg);
-}
+} */
 
 a span {
     position: absolute;
