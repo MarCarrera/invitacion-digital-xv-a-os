@@ -17,6 +17,9 @@
   --bg: transparent;
 
   background-image: url('./images/background.png'); 
+
+  
+  
 }
 
 html {
@@ -64,12 +67,14 @@ html {
 body {
   font-size: 1.6rem;
   background: var(--bg);
+
+  
   
 }
 
 .container {
   max-width: 124rem;
-  padding: 0 1rem;
+  padding: 0 4rem;
   margin: 0 auto;
   
 }
@@ -685,8 +690,8 @@ a span:nth-child(4) {
 }
 
 /* QUERY MEDIA */
-@media (max-width: 376px) {
- 
+@media (min-width: 344px) and (max-width: 360px){
+
   .corona-img {
     width: 90%;
     max-width: 40rem !important;
@@ -790,7 +795,6 @@ a span:nth-child(4) {
     text-align: center;
     padding-right: 0rem;
   }
-
   .n-padrinos {
     padding-top: 1.4rem;
     font-size: 3.2rem;
@@ -800,9 +804,240 @@ a span:nth-child(4) {
     text-align: center;
     padding-left: 0rem;
   }
-
   /* IMAGENES */
+  .flor1-img {
+    width: 90%;
+    max-width: 50rem;
+    padding-top: 0rem;
 
+    position: absolute; 
+    top: 4rem ;
+    left: 0; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor2-img {
+    width: 90%;
+    max-width: 14rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 46rem;
+    right: -3rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor3-img {
+    width: 90%;
+    max-width: 20rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 74rem;
+    left: -5rem; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor4-img {
+    width: 90%;
+    max-width: 22rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 165rem;
+    right: -9rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor5-img {
+    width: 90%;
+    max-width: 13rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 226.5rem;
+    left: -3rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 21rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 315rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 16rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 297rem;
+    right: -5rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 50rem; 
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 353rem; 
+    right: -4rem; 
+    width: 65%; 
+    height: auto; 
+
+  }
+  .espacio{
+    padding-top: 6rem;
+  }
+  .calendario-img {
+    width: 90%;
+    max-width: 54rem; 
+    text-align: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 0rem;
+  }
+  /* BOTON MAPA */
+
+  .texto-3 {
+    color: #333;
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    
+  }
+
+}
+@media (min-width: 360px) and (max-width: 373px){
+
+  .corona-img {
+    width: 90%;
+    max-width: 40rem !important;
+    text-align: center;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .mis {
+    padding-top: 1rem;
+    font-family: 'Ballet', cursive;
+    font-size: 6rem; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  .dulces {
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .nombreQuin {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 4rem; 
+    font-weight:100;
+    letter-spacing: 2px; 
+  }
+  .jeremias {
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
+    color: var(--primary);
+  }
+  .cita-jeremias {
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .invitacion {
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
+    color: var(--primary);
+  }
+  .mes {
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .papas {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .padrinos {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .n-papas {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-right: 0rem;
+  }
+  .n-padrinos {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  /* IMAGENES */
   .flor1-img {
     width: 90%;
     max-width: 50rem;
@@ -863,7 +1098,240 @@ a span:nth-child(4) {
   }
   .flor6-img {
     width: 90%;
-    max-width: 24rem; 
+    max-width: 21rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 305rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 16rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 290rem;
+    right: -3.6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 50rem; 
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 350rem; 
+    right: -4rem; 
+    width: 65%; 
+    height: auto; 
+
+  }
+  .espacio{
+    padding-top: 6rem;
+  }
+  .calendario-img {
+    width: 90%;
+    max-width: 54rem; 
+    text-align: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 0rem;
+  }
+  /* BOTON MAPA */
+
+  .texto-3 {
+    color: #333;
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    
+  }
+
+}
+@media (min-width: 374px) and (max-width: 411px){
+
+  .corona-img {
+    width: 90%;
+    max-width: 40rem !important;
+    text-align: center;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .mis {
+    padding-top: 1rem;
+    font-family: 'Ballet', cursive;
+    font-size: 6rem; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  .dulces {
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .nombreQuin {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 4rem; 
+    font-weight:100;
+    letter-spacing: 2px; 
+  }
+  .jeremias {
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
+    color: var(--primary);
+  }
+  .cita-jeremias {
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .invitacion {
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
+    color: var(--primary);
+  }
+  .mes {
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .papas {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .padrinos {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .n-papas {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-right: 0rem;
+  }
+  .n-padrinos {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  /* IMAGENES */
+  .flor1-img {
+    width: 90%;
+    max-width: 50rem;
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 4rem ;
+    left: 0; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor2-img {
+    width: 90%;
+    max-width: 14rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 46rem;
+    right: -3rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor3-img {
+    width: 90%;
+    max-width: 20rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 74rem;
+    left: -5rem; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor4-img {
+    width: 90%;
+    max-width: 22rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 165rem;
+    right: -9rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor5-img {
+    width: 90%;
+    max-width: 13rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 224rem;
+    left: -3rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 21rem; 
     padding-top: 0rem;
     position: absolute;
     top: 305rem;
@@ -909,7 +1377,6 @@ a span:nth-child(4) {
     padding-top: 7rem;
     margin-top: 0rem;
   }
-  
   /* BOTON MAPA */
 
   .texto-3 {
@@ -920,6 +1387,476 @@ a span:nth-child(4) {
     margin-top: 0;
     
   }
+
+
+
+}
+@media (min-width: 412px) and (max-width: 429px){
+
+  .corona-img {
+    width: 90%;
+    max-width: 40rem !important;
+    text-align: center;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .mis {
+    padding-top: 1rem;
+    font-family: 'Ballet', cursive;
+    font-size: 6rem; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  .dulces {
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .nombreQuin {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 4rem; 
+    font-weight:100;
+    letter-spacing: 2px; 
+  }
+  .jeremias {
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
+    color: var(--primary);
+  }
+  .cita-jeremias {
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .invitacion {
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
+    color: var(--primary);
+  }
+  .mes {
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .papas {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .padrinos {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .n-papas {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-right: 0rem;
+  }
+  .n-padrinos {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  /* IMAGENES */
+  .flor1-img {
+    width: 90%;
+    max-width: 50rem;
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 4rem ;
+    left: 0; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor2-img {
+    width: 90%;
+    max-width: 14rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 46rem;
+    right: -3rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor3-img {
+    width: 90%;
+    max-width: 19rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 74rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor4-img {
+    width: 90%;
+    max-width: 22rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 161rem;
+    right: -7rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor5-img {
+    width: 90%;
+    max-width: 13rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 224rem;
+    left: -3rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 21rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 299rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 16rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 284rem;
+    right: -3.6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 50rem; 
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 334rem; 
+    right: -5rem; 
+    width: 65%; 
+    height: auto; 
+
+  }
+  .espacio{
+    padding-top: 10rem;
+  }
+  .calendario-img {
+    width: 90%;
+    max-width: 54rem; 
+    text-align: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 0rem;
+  }
+  /* BOTON MAPA */
+
+  .texto-3 {
+    color: #333;
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1rem;
+    
+  }
+}
+@media (min-width: 430px) and (max-width: 528px){
+
+  .corona-img {
+    width: 90%;
+    max-width: 40rem !important;
+    text-align: center;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .mis {
+    padding-top: 1rem;
+    font-family: 'Ballet', cursive;
+    font-size: 6rem; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  .dulces {
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .nombreQuin {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 4rem; 
+    font-weight:100;
+    letter-spacing: 2px; 
+  }
+  .jeremias {
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
+    color: var(--primary);
+  }
+  .cita-jeremias {
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .invitacion {
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
+    color: var(--primary);
+  }
+  .mes {
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .papas {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .padrinos {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .n-papas {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-right: 0rem;
+  }
+  .n-padrinos {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  /* IMAGENES */
+  .flor1-img {
+    width: 90%;
+    max-width: 50rem;
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 4rem ;
+    left: 0; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor2-img {
+    width: 90%;
+    max-width: 14rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 52rem;
+    right: -4.4rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor3-img {
+    width: 90%;
+    max-width: 18rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 71rem;
+    left: -5rem; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor4-img {
+    width: 90%;
+    max-width: 22rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 165rem;
+    right: -9rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor5-img {
+    width: 90%;
+    max-width: 13rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 214rem;
+    left: -2rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 21rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 294rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 16rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 277rem;
+    right: -2rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 50rem; 
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 328rem; 
+    right: -5rem; 
+    width: 65%; 
+    height: auto; 
+
+  }
+  .espacio{
+    padding-top: 10rem;
+  }
+  .calendario-img {
+    width: 90%;
+    max-width: 54rem; 
+    text-align: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 0rem;
+  }
+  /* BOTON MAPA */
+
+  .texto-3 {
+    color: #333;
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2rem;
+    
+  }
+
+
+
 }
 
 @media (max-width:450px) {
