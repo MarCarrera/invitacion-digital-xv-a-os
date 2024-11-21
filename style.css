@@ -423,6 +423,19 @@ body {
     font-family: "Bitter", serif;
     text-align: center;
   }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; /* Asegura que sea tratado como un bloque completo */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas */
+    text-align: center; /* Centra el texto */
+    white-space: pre-line; /* Respeta los saltos de línea en el texto */
+    color: var(--primary);
+  }
   .mes {
     padding-top: 14rem;
     font-size: 4rem;
@@ -528,6 +541,43 @@ body {
     width: 65%; 
     height: auto; 
     
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 44rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 380rem;
+    left: -9rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 44rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 330rem;
+    right: -9rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 80rem; /* Corrige el tamaño a px */
+    padding-top: 0rem;
+
+    position: absolute; /* Posiciona la imagen absolutamente dentro del contenedor */
+    top: 390rem; /* Coloca la imagen en la parte superior */
+    right: -10rem; /* Coloca la imagen en el lado izquierdo */
+    width: 65%; /* Ajusta el ancho de la imagen (ajusta según sea necesario) */
+    height: auto; /* Mantiene la proporción de la imagen */
+
+  }
+  .espacio{
+    padding-top: 28rem;
   }
   .corona-img {
     width: 90%;
