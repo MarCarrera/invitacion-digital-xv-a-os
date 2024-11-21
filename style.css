@@ -88,22 +88,10 @@ body {
   padding: 4rem 0;
 }
 
-@media (max-width:1440px) {
-  #tranding {
-    padding: 7rem 0;
-  }
-}
-
 #tranding .tranding-slider {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
-}
-
-@media (max-width:500px) {
-  #tranding .tranding-slider {
-    height: 45rem;
-  }
 }
 
 .tranding-slide {
@@ -112,16 +100,7 @@ body {
   position: relative;
 }
 
-@media (max-width:500px) {
-  .tranding-slide {
-    width: 28rem !important;
-    height: 36rem !important;
-  }
-  .tranding-slide .tranding-slide-img img {
-    width: 28rem !important;
-    height: 36rem !important;
-  }
-}
+
 
 .tranding-slide .tranding-slide-img img {
   width: 37rem;
@@ -178,34 +157,6 @@ body {
 .tranding-slider-control .swiper-button-next {
   left: 58% !important;
   transform: translateX(-58%) !important;
-}
-
-@media (max-width:990px) {
-  .tranding-slider-control .swiper-button-next {
-    left: 70% !important;
-    transform: translateX(-70%) !important;
-  }
-}
-
-@media (max-width:450px) {
-  .tranding-slider-control .swiper-button-next {
-    left: 80% !important;
-    transform: translateX(-80%) !important;
-  }
-}
-
-@media (max-width:990px) {
-  .tranding-slider-control .swiper-button-prev {
-    left: 30% !important;
-    transform: translateX(-30%) !important;
-  }
-}
-
-@media (max-width:450px) {
-  .tranding-slider-control .swiper-button-prev {
-    left: 20% !important;
-    transform: translateX(-20%) !important;
-  }
 }
 
 .tranding-slider-control .slider-arrow {
@@ -303,7 +254,7 @@ body {
   }
   
   .control-btn:hover {
-    background: #dddddd; /* Un verde más claro al pasar el mouse */
+    background: #dddddd; 
   }
 
   /* CONTENEDORES  */
@@ -358,8 +309,8 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 0;
-    align-items: center; /* Centra el contenido horizontalmente */
-    text-align: center;  /* Centra el texto dentro de los elementos */
+    align-items: center; 
+    text-align: center;  
   }
   .texto-2 {
     color: #333;
@@ -380,9 +331,9 @@ body {
   
   .mis {
     font-family: 'Ballet', cursive;
-    font-size: 12rem; /* Aumenta el tamaño de la palabra "Mis" */
+    font-size: 12rem; 
     font-weight: bold;
-    letter-spacing: 2px; /* Agrega espacio entre letras */
+    letter-spacing: 2px; 
   }
   
   .dulces {
@@ -404,10 +355,10 @@ body {
     font-style:normal;
     font-family: "Bitter", serif;
 
-    display: block; /* Asegura que sea tratado como un bloque completo */
-    line-height: 1.6; /* Ajusta el espaciado entre líneas */
-    text-align: center; /* Centra el texto */
-    white-space: pre-line; /* Respeta los saltos de línea en el texto */
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
     color: var(--primary);
   }
   .cita-jeremias {
@@ -430,10 +381,10 @@ body {
     font-style:normal;
     font-family: "Bitter", serif;
 
-    display: block; /* Asegura que sea tratado como un bloque completo */
-    line-height: 1.6; /* Ajusta el espaciado entre líneas */
-    text-align: center; /* Centra el texto */
-    white-space: pre-line; /* Respeta los saltos de línea en el texto */
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
     color: var(--primary);
   }
   .mes {
@@ -486,53 +437,53 @@ body {
 
   .flor1-img {
     width: 90%;
-    max-width: 80rem; /* Corrige el tamaño a px */
+    max-width: 60rem; 
     padding-top: 0rem;
 
-    position: absolute; /* Posiciona la imagen absolutamente dentro del contenedor */
-    top: 0; /* Coloca la imagen en la parte superior */
-    left: 0; /* Coloca la imagen en el lado izquierdo */
-    width: 65%; /* Ajusta el ancho de la imagen (ajusta según sea necesario) */
-    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 65%; 
+    height: auto; 
   }
   .flor2-img {
     width: 90%;
-    max-width: 44rem; 
+    max-width: 34rem; 
     padding-top: 0rem;
 
     position: absolute;
-    top: 52rem;
-    right: -6rem; 
+    top: 48rem;
+    right: -3rem; 
     width: 65%; 
     height: auto; 
-    transform: scaleX(-1); /* Invierte la imagen verticalmente */
+    transform: scaleX(-1); 
   }
   .flor3-img {
     width: 90%;
-    max-width: 56rem; 
+    max-width: 50rem; 
     padding-top: 0rem;
 
     position: absolute;
     top: 84rem;
-    left: -12rem; 
+    left: -15rem; 
     width: 65%; 
     height: auto; 
   }
   .flor4-img {
     width: 90%;
-    max-width: 56rem; 
+    max-width: 50rem; 
     padding-top: 0rem;
 
     position: absolute;
-    top: 215rem;
-    right: -15rem; 
+    top: 205rem;
+    right: -12rem; 
     width: 65%; 
     height: auto; 
-    transform: scaleX(-1); /* Invierte la imagen verticalmente */
+    transform: scaleX(-1); 
   }
   .flor5-img {
     width: 90%;
-    max-width: 44rem; 
+    max-width: 40rem; 
     padding-top: 0rem;
 
     position: absolute;
@@ -544,10 +495,10 @@ body {
   }
   .flor6-img {
     width: 90%;
-    max-width: 44rem; 
+    max-width: 40rem; 
     padding-top: 0rem;
     position: absolute;
-    top: 380rem;
+    top: 350rem;
     left: -9rem; 
     width: 65%; 
     height: auto; 
@@ -555,35 +506,35 @@ body {
   }
   .flor7-img {
     width: 90%;
-    max-width: 44rem; 
+    max-width: 37rem; 
     padding-top: 0rem;
     position: absolute;
-    top: 330rem;
-    right: -9rem; 
+    top: 305rem;
+    right: -8rem; 
     width: 65%; 
     height: auto; 
     
   }
   .flor8-img {
     width: 90%;
-    max-width: 80rem; /* Corrige el tamaño a px */
+    max-width: 80rem; 
     padding-top: 0rem;
 
-    position: absolute; /* Posiciona la imagen absolutamente dentro del contenedor */
-    top: 390rem; /* Coloca la imagen en la parte superior */
-    right: -10rem; /* Coloca la imagen en el lado izquierdo */
-    width: 65%; /* Ajusta el ancho de la imagen (ajusta según sea necesario) */
-    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; 
+    top: 374rem; 
+    right: -10rem; 
+    width: 65%; 
+    height: auto; 
 
   }
   .espacio{
-    padding-top: 28rem;
+    padding-top: 22rem;
   }
   .corona-img {
     width: 90%;
-    max-width: 74rem; /* Corrige el tamaño a px */
+    max-width: 54rem; 
     text-align: center;
-    margin-left: 12rem;
+    margin-left: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -591,7 +542,7 @@ body {
   }
   .calendario-img {
     width: 90%;
-    max-width: 74rem; /* Corrige el tamaño a px */
+    max-width: 54rem; 
     text-align: center;
     margin-left: 12rem;
     display: flex;
@@ -632,7 +583,7 @@ a:hover {
 
 a:nth-child(1),
 a:nth-child(2) {
-  filter: none; /* O elimina por completo las reglas nth-child */
+  filter: none; 
 }
 
 
@@ -731,6 +682,288 @@ a span:nth-child(4) {
     100% {
         bottom: 100%;
     }
+}
+
+/* QUERY MEDIA */
+@media (max-width: 376px) {
+ 
+  .corona-img {
+    width: 90%;
+    max-width: 40rem !important;
+    text-align: center;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  .mis {
+    padding-top: 1rem;
+    font-family: 'Ballet', cursive;
+    font-size: 6rem; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  .dulces {
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .nombreQuin {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 4rem; 
+    font-weight:100;
+    letter-spacing: 2px; 
+  }
+  .jeremias {
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line;
+    color: var(--primary);
+  }
+  .cita-jeremias {
+    padding-bottom: 6rem;
+    font-size: 1.5rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+  }
+  .invitacion {
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .invitacion-final {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+
+    display: block; 
+    line-height: 1.6; 
+    text-align: center; 
+    white-space: pre-line; 
+    color: var(--primary);
+  }
+  .mes {
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-style:normal;
+    font-family: "Bitter", serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  .papas {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .padrinos {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Bitter", serif;
+    text-align: center;
+  }
+  .n-papas {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-right: 0rem;
+  }
+
+  .n-padrinos {
+    padding-top: 1.4rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  /* IMAGENES */
+
+  .flor1-img {
+    width: 90%;
+    max-width: 50rem;
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 4rem ;
+    left: 0; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor2-img {
+    width: 90%;
+    max-width: 14rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 46rem;
+    right: -3rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor3-img {
+    width: 90%;
+    max-width: 20rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 74rem;
+    left: -5rem; 
+    width: 65%; 
+    height: auto; 
+  }
+  .flor4-img {
+    width: 90%;
+    max-width: 22rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 165rem;
+    right: -9rem; 
+    width: 65%; 
+    height: auto; 
+    transform: scaleX(-1); 
+  }
+  .flor5-img {
+    width: 90%;
+    max-width: 13rem; 
+    padding-top: 0rem;
+
+    position: absolute;
+    top: 224rem;
+    left: -3rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor6-img {
+    width: 90%;
+    max-width: 24rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 305rem;
+    left: -6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor7-img {
+    width: 90%;
+    max-width: 16rem; 
+    padding-top: 0rem;
+    position: absolute;
+    top: 290rem;
+    right: -3.6rem; 
+    width: 65%; 
+    height: auto; 
+    
+  }
+  .flor8-img {
+    width: 90%;
+    max-width: 50rem; 
+    padding-top: 0rem;
+
+    position: absolute; 
+    top: 342rem; 
+    right: -5.5rem; 
+    width: 65%; 
+    height: auto; 
+
+  }
+  .espacio{
+    padding-top: 10rem;
+  }
+  .calendario-img {
+    width: 90%;
+    max-width: 54rem; 
+    text-align: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    margin-top: 0rem;
+  }
+  
+  /* BOTON MAPA */
+
+  .texto-3 {
+    color: #333;
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    
+  }
+}
+
+@media (max-width:450px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+  .tranding-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+@media (max-width:500px) {
+  #tranding .tranding-slider {
+    height: 45rem;
+  }
+  .tranding-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .tranding-slide .tranding-slide-img img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+@media (max-width:990px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+  .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+@media (max-width:990px) {
+}
+@media (max-width:450px) {
+  
+}
+@media (max-width:1440px) {
+  #tranding {
+    padding: 7rem 0;
+  }
 }
 
   
