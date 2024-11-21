@@ -60,4 +60,10 @@ audio.addEventListener('timeupdate', () => {
 document.querySelector('.progress-bar').addEventListener('input', (e) => {
   audio.currentTime = (e.target.value / 100) * audio.duration;
 });
+
+//SLIDER DE GALERIA
+
+
+
+
   
