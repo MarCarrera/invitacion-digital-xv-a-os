@@ -8,6 +8,8 @@
     <title>Fody Slider</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     
 
 </head>
@@ -16,62 +18,45 @@
     <section id="tranding">
         <div class="container border-wrapper">
 
-            <img src="./images/corona.png" class="corona-img" alt="">
+            <img src="./images/corona.png" class="animate__animated animate__fadeInUp corona-img" style="--animate-duration: 3s;" alt="">
             <div class="texto">
-                <span class="mis">Mis</span>
-                <span class="dulces">DULCES 15 AÑOS</span>
-                <span class="nombreQuin">Belén Cruz Rosales</span>
-                <span class="jeremias">
+                <span class="animate__animated animate__fadeInUp mis" style="--animate-duration: 3s;">Mis</span>
+                <span class="animate__animated animate__fadeInUp dulces"  style="--animate-duration: 5s;">DULCES 15 AÑOS</span>
+                <span class="animate__animated animate__fadeInUp nombreQuin" style="--animate-duration: 2.9s;">Belén Cruz Rosales</span>
+                <span class="animate__animated animate__fadeInUp jeremias" style="--animate-duration: 3s;">
                   “Antes que te formase en el vientre te conocí,
                     y antes que nacieses te santifiqué; 
                     te di por profeta a las naciones”
                 </span>
-                <span class="cita-jeremias">~ Jeremías 1:5</span>
+                <span class="animate__animated animate__fadeInUp cita-jeremias" style="--animate-duration: 3s;">~ Jeremías 1:5</span>
             </div>
 
 
             <!-- CANCION -->
 
             <div class="music-player">
-                <p class="song-title">No Crezcas Más - Tercer Cielo</p>
+                <p class="animate__animated animate__fadeInUp song-title" style="--animate-duration: 3s;">No Crezcas Más - Tercer Cielo</p>
                 <div class="progress-container">
-                    <input type="range" class="progress-bar" value="0" min="0" max="100" />
+                    <input type="range" class="animate__animated animate__fadeInUp progress-bar" style="--animate-duration: 3s;"
+                    value="0" min="0" max="100" />
                 </div>
                 <div class="controls">
-                    <button class="control-btn prev">&#9664;&#9664;</button>
-                    <button class="control-btn play">&#9654;</button>
-                    <button class="control-btn next">&#9654;&#9654;</button>
+                    <button class="animate__animated animate__fadeInUp control-btn prev" style="--animate-duration: 3s;">&#9664;&#9664;</button>
+                    <button class="animate__animated animate__fadeInUp control-btn play" style="--animate-duration: 3s;">&#9654;</button>
+                    <button class="animate__animated animate__fadeInUp control-btn next" style="--animate-duration: 3s;">&#9654;&#9654;</button>
                 </div>
                 <audio id="audio-player" src="./song/tercer-cielo-no-crezcas-mas.mp3"></audio>
             </div>
 
             <!-- SLIDER DE IMAGENES -->
 
-            <div class="swiper tranding-slider">
+            <div class="animate__animated animate__fadeInUp swiper tranding-slider" style="--animate-duration: 3s;">
                 <div class="swiper-wrapper">
                     <!-- Slide-start -->
                     <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img">
                             <img src="images/slider/1.jpg" alt="Tranding">
                         </div>
-                        <!-- <div class="tranding-slide-content">
-                            <h1 class="food-price">$20</h1>
-                            <div class="tranding-slide-content-bottom">
-                            <h2 class="food-name">
-                                Special Pizza
-                            </h2>
-                            <h3 class="food-rating">
-                                <span>4.5</span>
-                                <div class="rating">
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                </div>
-                            </h3>
-                            </div>
-                        </div> -->
                     </div>
                     <!-- Slide-end -->
                     <!-- Slide-start -->
@@ -136,23 +121,23 @@
             </div>
 
             <div class="texto-2">
-                <span class="invitacion">TE INVITO A LA CELEBRACIÓN DE MIS XV AÑOS
+                <span class="animate__animated animate__fadeInUp invitacion" style="--animate-duration: 3s;">TE INVITO A LA CELEBRACIÓN DE MIS XV AÑOS
                     EN COMPAÑIA DE: </span>
-                    <span class="papas">MIS PAPÁS</span>
-                    <span class="n-papas">Gerardo Cruz Niño</span>
-                    <span class="n-papas">Alma Rosales Zavaleta</span>
-                    <span class="padrinos">MIS PADRINOS DE
+                    <span class="animate__animated animate__fadeInUp papas" style="--animate-duration: 3s;">MIS PAPÁS</span>
+                    <span class="animate__animated animate__fadeInUp n-papas" style="--animate-duration: 3s;">Gerardo Cruz Niño</span>
+                    <span class="animate__animated animate__fadeInUp n-papas" style="--animate-duration: 3s;">Alma Rosales Zavaleta</span>
+                    <span class="animate__animated animate__fadeInUp padrinos" style="--animate-duration: 3s;">MIS PADRINOS DE
                       VELACIÓN</span>
-                    <span class="n-padrinos">Jorge Tadeo Tovany Huerta</span>
-                    <span class="n-padrinos">Teresa Tobón León</span>
+                    <span class="animate__animated animate__fadeInUp n-padrinos" style="--animate-duration: 3s;">Jorge Tadeo Tovany Huerta</span>
+                    <span class="animate__animated animate__fadeInUp n-padrinos" style="--animate-duration: 3s;">Teresa Tobón León</span>
 
-                    <span class="mes">DICIEMBRE 2024</span>
-                    <img src="./images/calendario.png" class="calendario-img" alt="">
+                    <span class="animate__animated animate__fadeInUp mes" style="--animate-duration: 3s;">DICIEMBRE 2024</span>
+                    <img src="./images/calendario.png" class="animate__animated animate__fadeInUp calendario-img" style="--animate-duration: 3s;" alt="">
 
-                    <span class="mes">DÓNDE Y CUÁNDO</span>
+                    <span class="animate__animated animate__fadeInUp mes" style="--animate-duration: 3s;">DÓNDE Y CUÁNDO</span>
 
-                    <span class="invitacion">Acción de Gracias         5 : 30 pm</span>
-                    <span class="invitacion">Salón Quinta Luna
+                    <span class="animate__animated animate__fadeInUp invitacion" style="--animate-duration: 3s;">Acción de Gracias         5 : 30 pm</span>
+                    <span class="animate__animated animate__fadeInUp invitacion" style="--animate-duration: 3s;">Salón Quinta Luna
                         Calle 18 de Marzo Col. Santa Cecilia</span>
 
                             
@@ -161,7 +146,7 @@
                         
             </div>
 
-            <div class="texto-3">
+            <div class="animate__animated animate__fadeInUp texto-3" style="--animate-duration: 3s;">
                 <a href="https://goo.gl/maps/kUNeUwXMzjuqScNj7" target="_blank" rel="noopener noreferrer">
                     <span></span>
                     <span></span>
@@ -181,7 +166,7 @@
             </div>
 
             <div class="texto">
-                <span class="invitacion-final">Agradeceré profundamente tu compañía 
+                <span class="animate__animated animate__fadeInUp invitacion-final" style="--animate-duration: 3s;">Agradeceré profundamente tu compañía 
                     para compartir este día tan significativo lleno 
                     de amor, alegría y gratitud.</span>
             </div>
@@ -194,15 +179,15 @@
         </div>
     </section>
 
-    <img src="./images/fl1.png" class="flor1-img" alt="">
-  <img src="./images/flor2.png" class="flor2-img" alt="">
-  <img src="./images/flor3.png" class="flor3-img" alt="">
-  <img src="./images/flor3.png" class="flor4-img" alt="">
-  <img src="./images/flor2.png" class="flor5-img" alt="">
+    <img src="./images/fl1.png" class="animate__animated animate__fadeInUp flor1-img" style="--animate-duration: 3s;" alt="">
+  <img src="./images/flor2.png" class="animate__animated animate__fadeInUp flor2-img" style="--animate-duration: 3s;" alt="">
+  <img src="./images/flor3.png" class="animate__animated animate__fadeInUp flor3-img" style="--animate-duration: 3s;" alt="">
+  <img src="./images/flor3.png" class="animate__animated animate__fadeInUp flor4-img" style="--animate-duration: 3s;" alt="">
+  <img src="./images/flor2.png" class="animate__animated animate__fadeInUp flor5-img" style="--animate-duration: 3s;" alt="">
 
-  <img src="./images/flor3.png" class="flor6-img" alt="">
-  <img src="./images/flor2.png" class="flor7-img" alt="">
-  <img src="./images/florInv.png" class="flor8-img" alt="">
+  <img src="./images/flor3.png" class="animate__animated animate__fadeInUp flor6-img" alt="">
+  <img src="./images/flor2.png" class="animate__animated animate__fadeInUp flor7-img" alt="">
+  <img src="./images/florInv.png" class="animate__animated animate__fadeInUp flor8-img" alt="">
 
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

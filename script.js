@@ -61,7 +61,26 @@ document.querySelector('.progress-bar').addEventListener('input', (e) => {
   audio.currentTime = (e.target.value / 100) * audio.duration;
 });
 
-//SLIDER DE GALERIA
+//ANIMACION EN SCROLL
+// Configuración del Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    // Si el elemento está en el viewport, añade la clase de animación
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate__fadeInUp'); // Activa la animación
+      observer.unobserve(entry.target); // Deja de observar para no reanimar
+    }
+  });
+});
+
+// Selecciona todos los elementos que deseas animar
+document.querySelectorAll('.animate__animated').forEach((element) => {
+  // Quita la clase de animación inicial para que no se ejecute de inmediato
+  element.classList.remove('animate__fadeInUp');
+  // Observa el elemento
+  observer.observe(element);
+});
+
 
 
 
