@@ -81,6 +81,73 @@ document.querySelectorAll('.animate__animated').forEach((element) => {
   observer.observe(element);
 });
 
+//EFECTO AUTOMATICO SLIDER
+document.addEventListener('DOMContentLoaded', () => {
+  const swiper = new Swiper('.swiper', {
+    loop: true, // Habilita el bucle infinito
+    autoplay: {
+      delay: 2000, // Cambia cada 2 segundos
+      disableOnInteraction: false, // Sigue funcionando después de una interacción manual
+    },
+    pagination: {
+      el: '.swiper-pagination', // Selector de la paginación
+      clickable: true, // Permite que la paginación sea interactiva
+    },
+  });
+});
+
+//------------------------------------------------------------
+
+const sliderWrapper = document.querySelector('.slider-wrapper');
+const slides = document.querySelectorAll('.slide');
+const pagination = document.querySelector('.pagination');
+
+let currentIndex = 0;
+let slideInterval;
+
+// Crear paginación
+slides.forEach((_, index) => {
+    const dot = document.createElement('div');
+    dot.addEventListener('click', () => goToSlide(index));
+    pagination.appendChild(dot);
+});
+
+const updatePagination = () => {
+    const dots = document.querySelectorAll('.pagination div');
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+    });
+};
+
+const goToSlide = (index) => {
+    currentIndex = index;
+    sliderWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
+    updatePagination();
+};
+
+const startSlider = () => {
+    slideInterval = setInterval(() => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        goToSlide(currentIndex);
+    }, 1500);
+};
+
+const stopSlider = () => {
+    clearInterval(slideInterval);
+};
+
+// Inicialización
+updatePagination();
+startSlider();
+
+// Pausar slider al pasar el mouse por encima
+sliderWrapper.addEventListener('mouseenter', stopSlider);
+sliderWrapper.addEventListener('mouseleave', startSlider);
+
+
+
+
+
 
 
 
