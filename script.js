@@ -82,19 +82,55 @@ document.querySelectorAll('.animate__animated').forEach((element) => {
 });
 
 //EFECTO AUTOMATICO SLIDER
-document.addEventListener('DOMContentLoaded', () => {
-  const swiper = new Swiper('.swiper', {
-    loop: true, // Habilita el bucle infinito
-    autoplay: {
-      delay: 2000, // Cambia cada 2 segundos
-      disableOnInteraction: false, // Sigue funcionando después de una interacción manual
-    },
-    pagination: {
-      el: '.swiper-pagination', // Selector de la paginación
-      clickable: true, // Permite que la paginación sea interactiva
-    },
+// Código para iniciar el Swiper después de que el DOM se haya cargado
+document.addEventListener('DOMContentLoaded', function () {
+  // Inicializar el Swiper con la clase correcta
+  var TrandingSlider = new Swiper('.tranding-slider', {
+      effect: 'coverflow', // Efecto de coverflow
+      grabCursor: true,
+      centeredSlides: true,
+      loop: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+      },
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+          delay: 1500, // Cambia las imágenes cada 2 segundos
+          disableOnInteraction: false, // No se desactiva el autoplay cuando se interactúa
+      }
   });
+
+  // Función para la animación en el scroll
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+              entry.target.classList.add('animate__fadeInUp');
+              observer.unobserve(entry.target); // Deja de observar para no reanimar
+          }
+      });
+  });
+
+  // Seleccionar y animar los elementos observables
+  document.querySelectorAll('.animate__animated').forEach((element) => {
+      element.classList.remove('animate__fadeInUp');
+      observer.observe(element);
+  });
+
+  // Función adicional para la canción, progreso, etc.
+  // Aquí iría tu código para manejar la canción, la barra de progreso, etc.
 });
+
 
 //------------------------------------------------------------
 
